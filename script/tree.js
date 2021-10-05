@@ -9,7 +9,6 @@ let treeLengthFactor = 0.21;
 let treeCanvasWidth = 0.55;
 
 const updateValues = () => {
-  console.log(window.innerWidth);
   if (window.innerWidth > 1250) {
     curvingFactor = 15;
     lengthFactor = 0.78;
