@@ -9,31 +9,31 @@ let treeLengthFactor = 0.21;
 let treeCanvasWidth = 0.55;
 
 const updateValues = () => {
-  console.log(screen.width);
-  if (screen.width > 1250) {
+  console.log(window.innerWidth);
+  if (window.innerWidth > 1250) {
     curvingFactor = 15;
     lengthFactor = 0.78;
     branchWidth = 40;
   }
-  if (screen.width < 1250) {
+  if (window.innerWidth < 1250) {
     curvingFactor = 12;
     lengthFactor = 0.75;
     branchWidth = 30;
     treeLengthFactor = 0.2;
   }
-  if (screen.width < 1120) {
+  if (window.innerWidth < 1120) {
     curvingFactor = 12;
     lengthFactor = 0.74;
     branchWidth = 25;
     treeLengthFactor = 0.18;
   }
-  if (screen.width < 930) {
+  if (window.innerWidth < 930) {
     curvingFactor = 10;
     lengthFactor = 0.72;
     branchWidth = 20;
     treeLengthFactor = 0.2;
   }
-  if (screen.width < 880) {
+  if (window.innerWidth < 880) {
     curvingFactor = 10;
     lengthFactor = 0.68;
     branchWidth = 20;
@@ -41,13 +41,13 @@ const updateValues = () => {
 
     treeCanvasWidth = 0.9;
   }
-  if (screen.width < 625) {
+  if (window.innerWidth < 625) {
     curvingFactor = 15;
     lengthFactor = 0.65;
     branchWidth = 25;
     treeLengthFactor = 0.2;
   }
-  if (screen.width < 550) {
+  if (window.innerWidth < 550) {
     curvingFactor = 12;
     lengthFactor = 0.6;
     branchWidth = 20;
