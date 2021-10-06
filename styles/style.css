@@ -101,6 +101,7 @@ section {
 }
 .home__heading p {
   border-bottom: 1px solid #7e3e28;
+
   padding: 1rem 1rem;
   padding-top: 0rem;
   font-size: 2rem;
@@ -212,7 +213,7 @@ section {
     font-size: 3.5rem;
     position: relative;
     padding-top: 1rem;
-    border-top: 1px solid black;
+    border-top: 1px solid #7e3e28;
     width: 10ch;
     margin: auto;
   }
