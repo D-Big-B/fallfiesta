@@ -28,7 +28,7 @@
   position: relative;
   display: flex;
   margin: 1rem 1.5rem;
-  box-shadow: 0px 0px 10px rgb(255, 123, 3);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 
 .card:nth-child(3) {
@@ -55,7 +55,7 @@
   transform: perspective(600px) rotateY(180deg);
   backface-visibility: hidden;
   overflow: hidden;
-  transition: transform 0.6s linear;
+  transition: transform 0.8s linear;
   background: rgba(19, 35, 61, 1);
   color: aliceblue;
   display: flex;
@@ -133,7 +133,7 @@
   height: 100%;
   position: absolute;
   transform: perspective(600px) rotateY(0deg);
-  transition: transform 0.6s linear;
+  transition: transform 0.8s linear;
   backface-visibility: hidden;
   overflow: hidden;
 }

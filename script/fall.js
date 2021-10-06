@@ -37,8 +37,14 @@ const fallLeaves = () => {
   }
 };
 
+for (let i = 0; i < 10; ++i) {
+  leafFallArray.push(new LeafFall());
+}
+
+fallLeaves();
+
 setInterval(() => {
-  for (let i = 0; i < 5; ++i) {
+  for (let i = 0; i < 10; ++i) {
     leafFallArray.push(new LeafFall());
   }
 
