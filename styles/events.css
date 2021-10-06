@@ -28,7 +28,7 @@
   position: relative;
   display: flex;
   margin: 1rem 1.5rem;
-  box-shadow: 0px 0px 12px rgb(255, 123, 3);
+  box-shadow: 0px 0px 10px rgb(255, 123, 3);
 }
 
 .card:nth-child(3) {

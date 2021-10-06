@@ -1,5 +1,8 @@
 const header = document.querySelector(".header");
 const events = document.querySelector(".events");
+const about = document.querySelector(".about");
+const scrollToAbout = document.querySelector(".scrollToAbout");
+const main = document.querySelector("main");
 
 let leafDistance = 0;
 const count = 25;

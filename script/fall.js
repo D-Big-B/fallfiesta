@@ -9,7 +9,7 @@ let leafFallArray = [];
 class LeafFall {
   constructor() {
     this.x = Math.random() * fallCanvas.width;
-    this.y = Math.random() * fallCanvas.height + fallCanvas.height * 0.2;
+    this.y = Math.random() * fallCanvas.height + fallCanvas.height * 0.4;
     this.size = 15;
     this.speedX = (Math.random() - 0.5) * 1;
     this.speedY = Math.random() * 2;
@@ -38,7 +38,7 @@ const fallLeaves = () => {
 };
 
 setInterval(() => {
-  for (let i = 0; i < 10; ++i) {
+  for (let i = 0; i < 5; ++i) {
     leafFallArray.push(new LeafFall());
   }
 

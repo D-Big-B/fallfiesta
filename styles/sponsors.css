@@ -17,7 +17,7 @@
   display: grid;
   min-width: 380px;
   grid-template-rows: 200px 1fr 1fr;
-  box-shadow: 0px 0px 12px rgb(255, 123, 3);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
   position: relative;
   justify-items: center;
   border-top-right-radius: 80px;
@@ -99,4 +99,10 @@
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;
   }
+}
+
+.utils {
+  position: absolute;
+  opacity: 0;
+  top: -100%;
 }
