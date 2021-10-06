@@ -5,7 +5,7 @@ const scrollToAbout = document.querySelector(".scrollToAbout");
 const main = document.querySelector("main");
 
 const leafImageArray = [
-  "./img/leave0.png",
+  // "./img/leave0.png",
   "./img/leave1.png",
   "./img/leave2.png",
   "./img/leave3.png",
@@ -15,14 +15,14 @@ const leafImageArray = [
 ];
 
 let leafDistance = 0;
-const count = 25;
+const count = 30;
 for (let i = 0; i < count; ++i) {
   leafDistance += 100 / count;
 
-  const imageNumber = Math.floor(Math.random() * 7);
+  const imageNumber = Math.floor(Math.random() * 6);
 
   header.innerHTML += `
-  <img style= 'z-index:10;position: fixed;left: -2%; width:80px; top:
+  <img style= 'z-index:10;position: fixed;left: -3%; width:100px; top:
   ${leafDistance - 8}%; transform: rotateZ(${Math.random() * 90}deg) scale(${
     Math.random() + 0.2
   });  filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0.4));'
@@ -31,7 +31,7 @@ for (let i = 0; i < count; ++i) {
   `;
 
   header.innerHTML += `
-  <img style= 'position: fixed;right: -2%; width:80px; top:
+  <img style= 'position: fixed;right: -3%; width:100px; top:
   ${leafDistance - 8}%; transform: rotateZ(${
     270 - Math.random() * 90
   }deg) scale(${

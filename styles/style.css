@@ -51,7 +51,7 @@ section {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
-  border-top: 1px solid rgb(255, 123, 3);
+  border-top: 1px solid #7e3e28;
   scroll-snap-align: start;
   overflow-y: hidden;
 }
@@ -80,7 +80,7 @@ section {
   position: absolute;
   font-family: "Dancing Script", cursive;
   font-size: 1.5rem;
-  color: rgb(255, 123, 3);
+  color: #e36636;
   top: 30%;
   left: 15%;
   transform: translate(-30%, -15%);
@@ -100,14 +100,14 @@ section {
   font-family: "Poppins", sans-serif;
 }
 .home__heading p {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #7e3e28;
   padding: 1rem 1rem;
   padding-top: 0rem;
   font-size: 2rem;
 }
 .heading h1 {
   font-size: 4.5rem;
-  color: rgb(255, 123, 3);
+  color: #e36636;
   text-align: center;
   height: 8%;
   font-family: "Dancing Script", cursive;
@@ -125,8 +125,7 @@ section {
   font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
   line-height: 1.6rem;
-  color: #ff6d01;
-  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+  color: #e36636;
 }
 .about__content h1 {
   width: 10ch;
@@ -136,6 +135,7 @@ section {
 }
 .about__content__info {
   padding: 2rem 0rem;
+  color: #65350f;
 }
 .about__content__info span {
   font-size: 1.8rem;

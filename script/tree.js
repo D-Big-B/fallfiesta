@@ -111,6 +111,6 @@ drawTree(
   treeCanvas.height * treeLengthFactor,
   0,
   branchWidth,
-  "#65350f",
+  "#7e3e28",
   "rgb(255,123,3)"
 );
